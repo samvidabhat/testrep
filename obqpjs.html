@@ -1,0 +1,78 @@
+<script>
+    function obj(){
+        var q1=document.getElementsByName("gk");
+        var q2=document.getElementsByName("gk3");
+        var q3=document.getElementsByName("gk1");
+        var q4=document.getElementsByName("gk2");
+        var q5=document.getElementsByName("gk4");
+        var q6=document.getElementsByName("gk5");
+
+        var c=0;
+        if(q1[0].checked)
+            c++;
+        if(q2[2].checked)
+            c++;
+            if(q3[1].checked)
+            c++;
+            if(q4[1].checked)
+            c++;
+            if(q5[0].checked)
+            c++;
+            if(q6[1].checked)
+            c++;
+
+            alert("the total score is "+c);
+
+               
+        
+
+    }
+    </script>
+    <h1> Objective Question paper</h1>
+    <h3>Q1. Who is the prime minister of India?</h3>
+    <form>
+        <input type="radio" name="gk" id="1"><label for="1">Modi</label>
+        <input type="radio" name="gk" id="2"><label for="2">Kalam</label>
+        <input type="radio" name="gk" id="3"><label for="3">Devegowda</label>
+        <input type="radio" name="gk" id="4"><label for="4">Nehru</label> 
+    </form>
+    <h3>Q2. How many colors in Indian flag?</h3>
+    <form>
+        <input type="radio" name="gk3" id="11"><label for="11">1</label>
+        <input type="radio" name="gk3" id="21"><label for="21">2</label>
+        <input type="radio" name="gk3" id="31"><label for="31">3</label>
+        <input type="radio" name="gk3" id="41"><label for="41">4</label>
+        
+    </form>
+    <h3>Q3. Which is the official language of India?</h3>
+    <form>
+        <input type="radio" name="gk1"><label for="511">Kannada</label>
+            <input type="radio" name="gk1"><label for="512">Hindi</label>
+        <input type="radio" name="gk1"><label for="513">English</label>
+        <input type="radio" name="gk1"><label for="514">British</label>
+    </form>
+    <h3>Q4. Which is the national flower of India?</h3>
+    <form>
+        <input type="radio" name="gk2">Rose
+        <input type="radio" name="gk2">Lotus
+        <input type="radio" name="gk2">Lily
+        <input type="radio" name="gk2">Orchid
+        
+    </form>
+    <h3>Q5. Which is the national bird of India?</h3>
+    <form>
+        <input type="radio" name="gk4">Peacock
+        <input type="radio" name="gk4">Parrot
+        <input type="radio" name="gk4">Sparrow
+        <input type="radio" name="gk4">Eagle
+        
+    <h3>Q6. Which is the national animal of India?</h3>
+    <form>
+        <input type="radio" name="gk5">Lion
+        <input type="radio" name="gk5">Tiger
+        <input type="radio" name="gk5">Wolf
+        <input type="radio" name="gk5">Monkey        
+    </form>
+    <button type="button" value="correct" onclick="obj();">CHECK</button>
+
+        
